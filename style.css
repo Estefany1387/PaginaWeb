@@ -1,0 +1,232 @@
+/*index.css*/
+
+#principal {
+    width: 1300px;
+    height: 1180px;
+    border: 1px solid white;
+    margin: 0 auto;
+    position: center;
+  }
+header{
+ position: relative;
+ display: block;
+ left: 20px;
+    width: 1250px;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+}
+.escudo{
+    position:relative;
+    top: 25px;
+}
+li{
+    list-style: none;
+}
+
+.barra{
+    position:relative;
+    top: 25px;
+    left: 40px;
+   
+    margin: 0;
+    padding: 0;
+}
+/*header.sesion{
+    position: relative;
+    top: 40px;
+    left:900px;
+
+}*/
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    position:relative;
+    display: block;
+    text-align: center;
+    margin: 1rem;
+    color: black;
+    font-family: georgia;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+a:hover{
+    background-color:rgb(14, 184, 14);
+    padding: 2px;
+}
+
+header.sesion{
+    position:relative;
+    top: 0px;
+    left: 1200px;
+    display: block;
+
+}
+
+.iniciar{
+    background-color: white;
+    width: 150px;
+    border-radius: 10px;
+    position:relative;
+    left: 850px;
+}
+
+.registro{
+    background-color: black;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    position:relative;
+    left: 900px;
+   
+    
+}
+
+.intro{
+    position: relative;
+    display: block;
+    left: 20px;
+    top: 10px;
+    border: 1px solid rgb(238, 231, 231);
+    width: 1250px;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #026a4b;
+    text-align: center;
+}
+.intro h2{
+ word-spacing: 30px;
+ letter-spacing: 10px;
+ font-size: 40px;
+ line-height: 45px;
+ 
+}
+
+.intro p{
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+
+
+.alebrijes{
+    position:relative;
+    display: block;
+    left: 20px;
+    text-align: center;
+    top: 40px;
+    border: 1px solid rgb(238, 231, 231);
+    width: 1250px;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #be0e3d;
+}
+
+
+h3.ale{
+    color:whitesmoke;
+    word-spacing: 30px;
+    letter-spacing: 10px;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.alebrijes .fotoale{
+    position: relative;
+    top:1px;
+
+}
+
+.alebrijes p{
+    word-spacing: 10px;
+    font-size: 20px;
+}
+.pedido{
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color:  #be0e3d;
+    border-color: whitesmoke;
+}
+
+.creatividad{
+    position:relative;
+    display: block;
+    left: 0px;
+    text-align: center;
+    top: 50px;
+    border: 1px solid rgb(238, 231, 231);
+    width: 1250px;
+    height: 310px;
+    margin: 20px;
+    padding: 0px;
+    background-color: #be0e3d;
+}
+
+.creativ{
+    float: right;
+    object-fit: cover;
+}
+h3.crea{
+    color:whitesmoke;
+    word-spacing: 30px;
+    letter-spacing: 10px;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.creatividad p{
+    word-spacing: 10px;
+    font-size: 20px;
+}
+.botones{
+    position: relative;
+ left: 20px;
+    width: 1250px;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+    border-color: black;
+    top: 40px;
+    display: flex;
+    
+   }
+   .S, .F, .P, .I, .Y, .T{
+    width: 30px;
+    height: 30px;
+   }
+
+   footer{
+    width: 1250px;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left: 30px;
+    top: 20px
+    
+   }
+footer img{
+    float: left;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    
+
+}
+
+footer p{
+    font-family: arial;
+    font-size:x-small;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
